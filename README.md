@@ -2,6 +2,8 @@
 
 **BeatBuddy** is a sleek, user-centric music streaming mobile application built for Android. It offers a seamless experience for discovering trending music, following favorite artists, and managing a personalized music library with an intuitive and playful UI.
 
+<img src="app_workflow.png" alt="App Image">
+
 ---
 
 ## 📱 Features
