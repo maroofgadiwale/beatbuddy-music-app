@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Useraccount">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/enjoy"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Buddy!"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fancybold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="\'\'Where Words Fail, Music Speaks\'\'"
+        android:gravity="center_horizontal"
+        android:textSize="23sp"
+        android:fontFamily="@font/fancybold"/>
+
+    <TextView
+        android:id="@+id/uemail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/creative"
+        android:textSize="20sp"
+        android:text="username: maroofgadiwale"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/creative"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:text="password: marfii@123"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Log Out"
+        android:textSize="20sp"
+        android:backgroundTint="#FA4949"/>
+
+
+</LinearLayout>
